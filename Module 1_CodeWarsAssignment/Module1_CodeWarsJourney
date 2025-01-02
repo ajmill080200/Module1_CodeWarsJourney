@@ -1,0 +1,18 @@
+# Even or Odd
+def even_or_odd(number):  #function to determin if number is even or odd
+    if (number % 2) == 0:
+        return f"Even"
+    else: 
+        return f"Odd"
+    
+
+# Convert a Number to a String
+def number_to_string(num):  #function to convert number to string
+    return str(num)
+
+
+# Vowel Count
+def get_count(sentence): #function to count lower case vowels in a sentence
+    vowels = "aeiou" 
+    count = sum(sentence.count(vowel) for vowel in vowels)
+    return count
